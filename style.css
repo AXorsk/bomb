@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ccc;
+}
+div {
+	margin: 10px auto;
+	width: 85%;
+	border: 10px solid;
+	background-color: #666;
+	box-shadow: 10px 10px 10px #000;
+	opacity: 0.8;
+}
+span {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 5px 5px 5px #000;
+	font-size: 60px;
+	font-weight: bolder;
+}
+canvas {
+	display: block;
+	margin: 0 auto;
+}
+
+.top {
+	margin-top: 20px;
+	height: 100px;
+	border-color: #f00;
+}
+.top > span {
+	margin-top: 3px;
+	letter-spacing: 5px;
+	color: #f00;
+}
+.middle {
+	margin-top: 20px;
+	position: relative;
+	height: 300px;
+	border-color: #0f0;
+}
+.middle > div {
+	position: absolute;
+	top: 10px;
+	height: 230px;
+	width: 40%;
+	border: 5px solid;
+	background-color: #ccc;
+	box-shadow: 5px 5px 5px #000;
+	opacity: 0.9;
+}
+.middle > span {
+	font-size: 30px;
+	margin-top: 30px;
+	color: #0f0;
+}
+.middle > input {
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin: 10px auto;
+	text-align: center;
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: normal;
+	border-radius: 10px;
+	font-size: 30px;
+}
+.middle > .left {
+	left: 30px;
+	border-color: red;
+}
+.middle > .left > .clight {
+	height: 80px;
+	width: 90%;
+	border-color: #fff;
+	background-color: #fff;
+	box-shadow: 0 0 0;
+	opacity: 1;
+}
+.middle > .left > .clight > canvas {
+	height: 80px;
+	width: 95%;
+}
+.middle > .left > .ctimer {
+	height: 80px;
+	width: 90%;
+	border-color: #000;
+	background-color: #000;
+	box-shadow: 0 0 0;
+	opacity: 1;
+}
+.middle > .left > .ctimer > span {
+	margin-top: 5px;
+	font-size: 50px;
+	text-decoration: none;
+	letter-spacing: 20px;
+	color: #f00;
+}
+.middle > .right {
+	right: 30px;
+	border-color: blue;
+}
+.middle > .right > .line {
+	position: absolute;
+	left: 0;
+	border: 0;
+	margin: 0;
+	height: 20px;
+	width: 100%;
+	box-shadow: 0 0 0;
+	opacity: 1;
+}
+._1 {
+	top: 10px;
+	background-color: red;
+}
+._2 {
+	top: 40px;
+	background-color: orange;
+}
+._3 {
+	top: 70px;
+	background-color: yellow;
+}
+._4 {
+	top: 100px;
+	background-color: green;
+}
+._5 {
+	top: 130px;
+	background-color: blue;
+}
+._8 {
+	height: 2px!important;
+	top: 155px;
+	background-color: white;
+}
+._6 {
+	top: 160px;
+	background-color: purple;
+}
+._7 {
+	top: 190px;
+	background-color: black;
+}
+.middle > .right > .pcover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	margin: 0;
+	height: 230px;
+	width: 100%;
+	background-color: #000;
+	box-shadow: 0 0 0;
+	opacity: 0.95;
+}
+.middle > .right > .pcover > textarea {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	resize: none;
+	font-size: 30px;
+	font-weight: bolder;
+	border-radius: 10px;
+	background-color: #fff;
+	height: 60%;
+	width: 90%;
+}
+textarea::-webkit-input-placeholder {
+	font-weight: bolder;
+}
+textarea::-moz-placeholder {
+	font-weight: bolder;
+}
+textarea:-moz-placeholder {
+	font-weight: bolder;
+}
+textarea::-ms-input-placeholder {
+	font-weight: bolder;
+}
+textarea:-ms-input-placeholder {
+	font-weight: bolder;
+}
+.middle > .right > .pcover > input {
+	position: absolute;
+	top: 160px;
+	left: 110px;
+	resize: none;
+	color: #00c;
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-weight: bolder;
+	border-radius: 10px;
+	background-color: #c00;
+	width: 50%;
+	height: 50px;
+}
+.bottom {
+	margin-top: 20px;
+	height: 800px;
+	border-color: #00f;
+}
+.bottom > span {
+	color: #00f;
+	font-family: "FangSong";
+	letter-spacing: 5px;
+}
